@@ -1,0 +1,221 @@
+[I 07:26:50.152 NotebookApp] Serving notebooks from local directory: /home/ec2-user/complete
+[I 07:26:50.153 NotebookApp] 0 active kernels
+[I 07:26:50.153 NotebookApp] The Jupyter Notebook is running at:
+[I 07:26:50.153 NotebookApp] http://0.0.0.0:8888/?token=449565e5b31435e24b124d3beffaee3e3509fe4f773845b1
+[I 07:26:50.153 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 07:26:50.153 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://0.0.0.0:8888/?token=449565e5b31435e24b124d3beffaee3e3509fe4f773845b1
+[W 07:27:06.306 NotebookApp] 404 GET /api/kernels/90534a77-cbd7-4c9e-aa8d-444d29ffd11e/channels?session_id=DCA044ADECB24C858C075FEC1A595A9D (188.98.90.48): Kernel does not exist: 90534a77-cbd7-4c9e-aa8d-444d29ffd11e
+[W 07:27:06.338 NotebookApp] 404 GET /api/kernels/90534a77-cbd7-4c9e-aa8d-444d29ffd11e/channels?session_id=DCA044ADECB24C858C075FEC1A595A9D (188.98.90.48) 40.27ms referer=None
+[W 07:27:39.278 NotebookApp] Replacing stale connection: 90534a77-cbd7-4c9e-aa8d-444d29ffd11e:DCA044ADECB24C858C075FEC1A595A9D
+[I 07:28:45.569 NotebookApp] The port 8888 is already in use, trying another port.
+[I 07:28:45.580 NotebookApp] Serving notebooks from local directory: /home/ec2-user/complete
+[I 07:28:45.580 NotebookApp] 0 active kernels
+[I 07:28:45.580 NotebookApp] The Jupyter Notebook is running at:
+[I 07:28:45.580 NotebookApp] http://0.0.0.0:8889/?token=4e6a3a889bf1c6e88790d65a43013b1109171cfe467ab852
+[I 07:28:45.580 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 07:28:45.581 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://0.0.0.0:8889/?token=4e6a3a889bf1c6e88790d65a43013b1109171cfe467ab852
+[W 07:31:48.419 NotebookApp] 404 GET /static/components/moment/locale/de.js?v=20180323072649 (188.98.90.48) 1.43ms referer=http://34.207.219.26:8888/tree
+[W 07:31:51.122 NotebookApp] 404 GET /static/components/moment/locale/de.js?v=20180323072649 (188.98.90.48) 1.44ms referer=http://34.207.219.26:8888/notebooks/dlnd_tv_script_generation.ipynb
+[I 07:31:52.445 NotebookApp] Kernel started: 45b2dfcf-adeb-4f6f-a8c2-f10986ac1e03
+[I 07:31:53.211 NotebookApp] Adapting to protocol v5.1 for kernel 45b2dfcf-adeb-4f6f-a8c2-f10986ac1e03
+2018-03-23 07:32:33.437657: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2018-03-23 07:32:33.437704: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-03-23 07:32:33.437716: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2018-03-23 07:32:33.437725: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-03-23 07:32:33.437734: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2018-03-23 07:32:33.576536: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-03-23 07:32:33.577030: I tensorflow/core/common_runtime/gpu/gpu_device.cc:887] Found device 0 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:00:1e.0
+Total memory: 11.17GiB
+Free memory: 11.11GiB
+2018-03-23 07:32:33.577049: I tensorflow/core/common_runtime/gpu/gpu_device.cc:908] DMA: 0 
+2018-03-23 07:32:33.577063: I tensorflow/core/common_runtime/gpu/gpu_device.cc:918] 0:   Y 
+2018-03-23 07:32:33.577072: I tensorflow/core/common_runtime/gpu/gpu_device.cc:977] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2018-03-23 07:32:33.694675: I tensorflow/core/common_runtime/gpu/gpu_device.cc:977] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+[I 07:32:44.182 NotebookApp] 302 GET / (54.67.12.8) 0.53ms
+2018-03-23 07:33:11.952285: I tensorflow/core/common_runtime/gpu/gpu_device.cc:977] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2018-03-23 07:33:16.977183: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 2693 get requests, put_count=2410 evicted_count=1000 eviction_rate=0.414938 and unsatisfied allocation rate=0.513554
+2018-03-23 07:33:16.977239: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 100 to 110
+[I 07:33:52.673 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+2018-03-23 07:34:07.438974: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 3665 get requests, put_count=3596 evicted_count=1000 eviction_rate=0.278087 and unsatisfied allocation rate=0.297954
+2018-03-23 07:34:07.439015: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 256 to 281
+[I 07:35:52.587 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 07:37:52.586 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 07:39:52.588 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 07:41:52.589 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 07:43:52.587 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 07:45:52.587 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 07:47:52.593 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 07:49:52.592 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 07:51:52.588 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 07:53:52.596 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 07:55:52.584 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 07:57:52.582 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 07:59:52.584 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 08:01:52.597 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 08:03:52.591 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 08:05:52.590 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 08:07:52.584 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 08:09:52.589 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 08:11:52.596 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 08:13:52.584 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 08:15:52.595 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 08:17:52.592 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 08:19:52.579 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 08:21:52.584 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 08:23:52.589 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 08:25:52.589 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 08:27:52.587 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 08:29:52.590 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 08:31:52.591 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 08:33:52.582 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 08:35:52.589 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 08:37:52.581 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 08:39:52.580 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 08:41:52.597 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 08:43:52.596 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 08:45:52.584 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 08:47:52.584 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 08:49:52.586 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 08:51:52.666 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 08:53:52.580 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 08:55:52.582 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 08:57:52.590 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 08:59:52.586 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 09:01:52.587 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 09:03:52.577 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 09:05:52.578 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 09:07:52.587 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 09:09:52.582 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 09:11:52.581 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 09:13:52.587 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 09:15:52.585 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 09:17:52.575 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 09:19:52.578 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 09:21:52.591 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 09:23:52.580 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 09:25:52.582 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 09:27:52.649 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+2018-03-23 09:32:03.106191: I tensorflow/core/common_runtime/gpu/gpu_device.cc:977] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+[I 09:32:16.529 NotebookApp] Kernel interrupted: 45b2dfcf-adeb-4f6f-a8c2-f10986ac1e03
+2018-03-23 09:32:37.804183: I tensorflow/core/common_runtime/gpu/gpu_device.cc:977] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2018-03-23 09:33:04.703187: I tensorflow/core/common_runtime/gpu/gpu_device.cc:977] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+[I 09:33:52.793 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+2018-03-23 09:39:25.195375: I tensorflow/core/common_runtime/gpu/gpu_device.cc:977] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2018-03-23 09:39:43.782934: I tensorflow/core/common_runtime/gpu/gpu_device.cc:977] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+[I 09:39:52.902 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+2018-03-23 09:40:15.665810: I tensorflow/core/common_runtime/gpu/gpu_device.cc:977] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2018-03-23 09:40:35.422142: I tensorflow/core/common_runtime/gpu/gpu_device.cc:977] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+[I 09:41:52.922 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[W 09:42:00.375 NotebookApp] 404 GET /static/components/moment/locale/de.js?v=20180323072649 (188.98.90.48) 1.51ms referer=http://34.207.219.26:8888/edit/helper.py
+2018-03-23 09:45:07.472517: I tensorflow/core/common_runtime/gpu/gpu_device.cc:977] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+[W 09:45:23.203 NotebookApp] 404 GET /static/components/moment/locale/de.js?v=20180323072649 (188.98.90.48) 1.47ms referer=http://34.207.219.26:8888/notebooks/dlnd_tv_script_generation.ipynb
+[I 09:45:24.815 NotebookApp] Adapting to protocol v5.1 for kernel 45b2dfcf-adeb-4f6f-a8c2-f10986ac1e03
+[I 09:45:53.166 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+2018-03-23 09:46:10.225922: I tensorflow/core/common_runtime/gpu/gpu_device.cc:977] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2018-03-23 09:47:15.832563: I tensorflow/core/common_runtime/gpu/gpu_device.cc:977] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2018-03-23 09:47:40.588886: I tensorflow/core/common_runtime/gpu/gpu_device.cc:977] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2018-03-23 09:47:50.840205: I tensorflow/core/common_runtime/gpu/gpu_device.cc:977] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+[I 09:47:52.974 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+2018-03-23 09:47:59.542505: I tensorflow/core/common_runtime/gpu/gpu_device.cc:977] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2018-03-23 09:48:12.971263: I tensorflow/core/common_runtime/gpu/gpu_device.cc:977] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+[I 09:49:53.015 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+2018-03-23 09:49:58.115361: I tensorflow/core/common_runtime/gpu/gpu_device.cc:977] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2018-03-23 09:50:43.486729: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 3502348 get requests, put_count=3502337 evicted_count=3000 eviction_rate=0.000856571 and unsatisfied allocation rate=0.0008737
+[I 09:51:53.033 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 09:53:53.035 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 09:55:53.026 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 09:57:53.041 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 09:59:53.079 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 10:01:54.117 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 10:03:53.224 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 10:05:53.155 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 10:07:53.169 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 10:09:53.181 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 10:11:53.195 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 10:13:53.213 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+2018-03-23 10:18:52.272806: I tensorflow/core/common_runtime/gpu/gpu_device.cc:977] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2018-03-23 10:19:34.102957: I tensorflow/core/common_runtime/gpu/gpu_device.cc:977] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+[I 10:19:53.217 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 10:27:53.269 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 10:27:59.593 NotebookApp] Kernel interrupted: 45b2dfcf-adeb-4f6f-a8c2-f10986ac1e03
+[W 10:28:55.004 NotebookApp] IOPub data rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_data_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_data_rate_limit=1000000.0 (bytes/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[I 10:29:55.240 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 10:31:54.209 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 10:34:02.459 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 10:35:53.282 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+2018-03-23 10:37:09.150069: I tensorflow/core/common_runtime/gpu/gpu_device.cc:977] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2018-03-23 10:37:09.151146: I tensorflow/core/common_runtime/gpu/gpu_device.cc:977] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2018-03-23 10:37:23.777602: I tensorflow/core/common_runtime/gpu/gpu_device.cc:977] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+[I 10:37:53.306 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 10:39:53.388 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 10:41:53.461 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 10:43:53.531 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 10:45:53.615 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 10:47:53.647 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 10:49:53.679 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 10:51:53.733 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 10:53:53.786 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 10:55:53.864 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 10:57:53.920 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 10:59:53.984 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 11:01:54.050 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 11:03:54.103 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 11:05:55.029 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 11:07:54.158 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 11:09:54.198 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 11:11:54.293 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 11:13:54.356 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 11:15:54.425 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 11:17:54.483 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 11:19:54.585 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 11:21:54.632 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 11:23:54.715 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+[I 14:03:02.121 NotebookApp] 302 GET /?token=4e6a3a889bf1c6e88790d65a43013b1109171cfe467ab852 (87.123.205.239) 0.54ms
+[I 14:03:02.383 NotebookApp] 302 GET /tree?token=4e6a3a889bf1c6e88790d65a43013b1109171cfe467ab852 (87.123.205.239) 1.11ms
+[I 14:05:39.396 NotebookApp] 302 GET /?token=4e6a3a889bf1c6e88790d65a43013b1109171cfe467ab852 (87.123.205.239) 0.62ms
+[I 14:05:39.584 NotebookApp] 302 GET /tree?token=4e6a3a889bf1c6e88790d65a43013b1109171cfe467ab852 (87.123.205.239) 0.92ms
+2018-03-23 20:12:10.995286: I tensorflow/core/common_runtime/gpu/gpu_device.cc:977] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+[I 20:12:18.906 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+2018-03-23 20:12:23.901741: I tensorflow/core/common_runtime/gpu/gpu_device.cc:977] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2018-03-23 20:12:42.779248: I tensorflow/core/common_runtime/gpu/gpu_device.cc:977] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2018-03-23 20:12:55.443408: I tensorflow/core/common_runtime/gpu/gpu_device.cc:977] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2018-03-23 20:13:04.629216: I tensorflow/core/common_runtime/gpu/gpu_device.cc:977] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2018-03-23 20:13:18.313595: I tensorflow/core/common_runtime/gpu/gpu_device.cc:977] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2018-03-23 20:14:06.584120: I tensorflow/core/common_runtime/gpu/gpu_device.cc:977] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+[W 20:14:10.882 NotebookApp] IOPub data rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_data_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_data_rate_limit=1000000.0 (bytes/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[I 20:14:18.932 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+2018-03-23 20:14:24.509395: I tensorflow/core/common_runtime/gpu/gpu_device.cc:977] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2018-03-23 20:15:12.262606: I tensorflow/core/common_runtime/gpu/gpu_device.cc:977] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+[I 20:16:18.988 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
+2018-03-23 20:16:28.903457: I tensorflow/core/common_runtime/gpu/gpu_device.cc:977] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2018-03-23 20:17:50.458170: I tensorflow/core/common_runtime/gpu/gpu_device.cc:977] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+[I 20:18:19.056 NotebookApp] Saving file at /dlnd_tv_script_generation.ipynb
